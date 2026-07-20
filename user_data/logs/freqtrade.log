@@ -1,0 +1,110 @@
+2026-07-20 17:53:19,302 - freqtrade.loggers - INFO - Enabling colorized output.
+2026-07-20 17:53:19,303 - freqtrade.loggers - INFO - Logfile configured
+2026-07-20 17:53:19,304 - freqtrade.loggers - INFO - Verbosity set to 0
+2026-07-20 17:53:19,305 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2026-07-20 17:53:19,305 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2026-07-20 17:53:19,306 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2026-07-20 17:53:19,306 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2026-07-20 17:53:19,307 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2026-07-20 17:53:19,429 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2026-07-20 17:53:19,430 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2026-07-20 17:53:19,431 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/bybit ...
+2026-07-20 17:53:19,432 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2026-07-20 17:53:19,439 - freqtrade.exchange.check_exchange - INFO - Exchange "bybit" is officially supported by the Freqtrade development team.
+2026-07-20 17:53:19,440 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2026-07-20 17:53:19,441 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2026-07-20 17:53:19,441 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.61
+2026-07-20 17:53:19,441 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}}
+2026-07-20 17:53:19,447 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}}
+2026-07-20 17:53:19,454 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'spot'}}
+2026-07-20 17:53:19,461 - freqtrade.exchange.exchange - INFO - Using Exchange "Bybit"
+2026-07-20 17:53:20,865 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Bybit'...
+2026-07-20 17:53:21,050 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2026-07-20 17:53:21,051 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2026-07-20 17:53:21,052 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value from the configuration: USDT.
+2026-07-20 17:53:21,052 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value from the configuration: unlimited.
+2026-07-20 17:53:21,052 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value from the configuration: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2026-07-20 17:53:21,053 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value from the configuration: 3.
+2026-07-20 17:53:21,053 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2026-07-20 17:53:21,054 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2026-07-20 17:53:21,054 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2026-07-20 17:53:21,055 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2026-07-20 17:53:21,055 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2026-07-20 17:53:21,055 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2026-07-20 17:53:21,056 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-07-20 17:53:21,056 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2026-07-20 17:53:21,056 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2026-07-20 17:53:21,057 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2026-07-20 17:53:21,057 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-07-20 17:53:21,057 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2026-07-20 17:53:21,058 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2026-07-20 17:53:21,058 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2026-07-20 17:53:21,060 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2026-07-20 17:53:21,061 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2026-07-20 17:53:21,061 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2026-07-20 17:53:21,063 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2026-07-20 17:53:21,064 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-07-20 17:53:21,064 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-07-20 17:53:21,065 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-07-20 17:53:21,065 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-07-20 17:53:21,065 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2026-07-20 17:53:21,066 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-07-20 17:53:21,168 - freqtrade.wallets - INFO - Wallets synced.
+2026-07-20 17:53:21,242 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2026-07-20 17:53:21,510 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2026-07-20 17:53:21,511 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2026-07-20 17:53:21,619 - uvicorn.error - INFO - Started server process [1]
+2026-07-20 17:53:21,620 - uvicorn.error - INFO - Waiting for application startup.
+2026-07-20 17:53:21,622 - uvicorn.error - INFO - Application startup complete.
+2026-07-20 17:53:21,623 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2026-07-20 17:53:21,634 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2026-07-20 17:53:21,636 - freqtrade.freqtradebot - INFO - Starting initial pairlist refresh
+2026-07-20 17:53:22,393 - VolumePairList - INFO - Pair USDC/USDT in your blacklist. Removing it from whitelist...
+2026-07-20 17:53:22,394 - VolumePairList - INFO - Pair TUSD/USDT in your blacklist. Removing it from whitelist...
+2026-07-20 17:53:22,395 - VolumePairList - INFO - Pair JUP/USDT in your blacklist. Removing it from whitelist...
+2026-07-20 17:53:22,395 - VolumePairList - INFO - Pair USDE/USDT in your blacklist. Removing it from whitelist...
+2026-07-20 17:53:22,415 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'HYPE/USDT', 'SOL/USDT', 'INJ/USDT', 'BILL/USDT', 'XRP/USDT', 'WLD/USDT', 'ENA/USDT', 'LINK/USDT', 'USD1/USDT', 'XAUT/USDT', 'PUMP/USDT', 'AAVE/USDT', 'MNT/USDT', 'NIGHT/USDT', 'LTC/USDT', 'TRUMP/USDT', 'GRAM/USDT', 'ADA/USDT']
+2026-07-20 17:53:22,416 - freqtrade.freqtradebot - INFO - Initial Pairlist refresh took 0.78s
+2026-07-20 17:53:22,418 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2026-07-20 17:53:22,418 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2026-07-20 17:53:22,419 - freqtrade.strategy.hyper - INFO - No params for exit found, using default values.
+2026-07-20 17:53:22,420 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2026-07-20 17:53:22,420 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2026-07-20 17:53:22,421 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2026-07-20 17:53:22,421 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2026-07-20 17:53:22,422 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2026-07-20 17:53:22,422 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2026-07-20 17:53:22,423 - freqtrade.worker - INFO - Changing state to: RUNNING
+2026-07-20 17:53:22,445 - freqtrade.util.migrations.migrate_wallet_history - INFO - Starting wallet history migration...
+2026-07-20 17:53:22,499 - freqtrade.util.migrations.migrate_wallet_history - INFO - Wallet history migration completed.
+2026-07-20 17:53:22,519 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2026-07-20 17:53:22,519 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `bybit`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2026-07-20 17:53:22,520 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2026-07-20 17:53:27,523 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.6', state='RUNNING'
+2026-07-20 17:54:13,101 - uvicorn.error - INFO - 172.18.0.1:53676 - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoiZnJlcXRyYWRlciJ9LCJleHAiOjE3ODQ1NzA5NTEsImlhdCI6MTc4NDU3MDA1MSwidHlwZSI6ImFjY2VzcyJ9.eqgCk8s-tpLJM9ul3xlxlbS4BKH13T0YRMHRxK2RYCc" [accepted]
+2026-07-20 17:54:13,102 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(9d3ce429, ('172.18.0.1', 53676))
+2026-07-20 17:54:13,103 - uvicorn.error - INFO - connection open
+2026-07-20 17:54:27,530 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.6', state='RUNNING'
+2026-07-20 17:55:31,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.6', state='RUNNING'
+2026-07-20 17:56:31,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.6', state='RUNNING'
+2026-07-20 17:56:41,892 - uvicorn.error - INFO - connection closed
+2026-07-20 17:56:41,895 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(9d3ce429, ('172.18.0.1', 53676))
+2026-07-20 17:56:52,341 - uvicorn.error - INFO - 172.18.0.1:50814 - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoiZnJlcXRyYWRlciJ9LCJleHAiOjE3ODQ1NzA5NTEsImlhdCI6MTc4NDU3MDA1MSwidHlwZSI6ImFjY2VzcyJ9.eqgCk8s-tpLJM9ul3xlxlbS4BKH13T0YRMHRxK2RYCc" [accepted]
+2026-07-20 17:56:52,342 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(fb1af224, ('172.18.0.1', 50814))
+2026-07-20 17:56:52,343 - uvicorn.error - INFO - connection open
+2026-07-20 17:57:31,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.6', state='RUNNING'
+2026-07-20 17:58:31,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.6', state='RUNNING'
+2026-07-20 17:58:32,445 - uvicorn.error - INFO - connection closed
+2026-07-20 17:58:32,447 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(fb1af224, ('172.18.0.1', 50814))
+2026-07-20 17:58:43,275 - uvicorn.error - INFO - 172.18.0.1:48060 - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoiZnJlcXRyYWRlciJ9LCJleHAiOjE3ODQ1NzA5NTEsImlhdCI6MTc4NDU3MDA1MSwidHlwZSI6ImFjY2VzcyJ9.eqgCk8s-tpLJM9ul3xlxlbS4BKH13T0YRMHRxK2RYCc" [accepted]
+2026-07-20 17:58:43,276 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(672bea81, ('172.18.0.1', 48060))
+2026-07-20 17:58:43,277 - uvicorn.error - INFO - connection open
+2026-07-20 17:59:31,015 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.6', state='RUNNING'
+2026-07-20 18:00:36,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.6', state='RUNNING'
+2026-07-20 18:01:36,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.6', state='RUNNING'
+2026-07-20 18:01:42,059 - uvicorn.error - INFO - connection closed
+2026-07-20 18:01:42,061 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(672bea81, ('172.18.0.1', 48060))
+2026-07-20 18:01:53,483 - uvicorn.error - INFO - 172.18.0.1:33694 - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoiZnJlcXRyYWRlciJ9LCJleHAiOjE3ODQ1NzA5NTEsImlhdCI6MTc4NDU3MDA1MSwidHlwZSI6ImFjY2VzcyJ9.eqgCk8s-tpLJM9ul3xlxlbS4BKH13T0YRMHRxK2RYCc" [accepted]
+2026-07-20 18:01:53,484 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(9fe4ca86, ('172.18.0.1', 33694))
+2026-07-20 18:01:53,485 - uvicorn.error - INFO - connection open
+2026-07-20 18:02:36,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.6', state='RUNNING'
